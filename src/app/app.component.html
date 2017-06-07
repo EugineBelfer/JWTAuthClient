@@ -1,3 +1,8 @@
 <h1>
   {{title}}
 </h1>
+<a routerLink="/search">Search</a>
+<a routerLink="/myAccount">MyAccount</a>
+<a *ngIf="!auth.loggedIn()" routerLink="/login">Login</a>
+<button *ngIf="auth.loggedIn()" (click)="logout()" value="Logout">Logout</button>
+<router-outlet></router-outlet>
