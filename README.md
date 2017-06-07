@@ -3,6 +3,7 @@ Angular2 + JWT Authorization Client POC
 
 This is frontend part of JWT Auth POC.
 Link to backend part: https://github.com/EugineBelfer/PassportJWTAuthAPI
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.3.
 
 ## Development server
